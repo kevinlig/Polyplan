@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/cht_bar"
+        android:title="Bar Chart"
+        android:icon="@drawable/graph_type_bar" />
+
+    <item
+        android:id="@+id/cht_line"
+        android:title="Line Chart"
+        android:icon="@drawable/graph_type_line" />
+</menu>

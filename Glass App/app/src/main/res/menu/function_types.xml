@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/fct_avg"
+        android:title="AVERAGE"/>
+
+    <item
+        android:id="@+id/fct_max"
+        android:title="MAX"/>
+
+    <item
+        android:id="@+id/fct_min"
+        android:title="MIN"/>
+
+    <item
+        android:id="@+id/fct_sum"
+        android:title="SUM"/>
+</menu>

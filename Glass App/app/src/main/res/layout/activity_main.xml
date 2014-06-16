@@ -1,0 +1,283 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="${relativePackage}.${activityClass}">
+
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10px"
+        android:id="@+id/tableView">
+
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginLeft="20px"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="60px"
+                    android:layout_height="60px"
+                    android:text=""
+                    android:background="#000000"
+                    android:gravity="center"
+                    android:id="@+id/cell00" />
+                <TextView
+                    android:layout_width="180px"
+                    android:layout_height="60px"
+                    android:text="A"
+                    android:textColor="#000000"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:tag="cellA0"
+                    android:id="@+id/cellA0" />
+
+                <TextView
+                    android:layout_width="180px"
+                    android:layout_height="60px"
+                    android:text="B"
+                    android:textColor="#000000"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:tag="cellB0"
+                    android:id="@+id/cellB0" />
+
+                <TextView
+                    android:layout_width="180px"
+                    android:layout_height="60px"
+                    android:text="C"
+                    android:textColor="#000000"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:tag="cellC0"
+                    android:id="@+id/cellC0" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginLeft="20px"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="60px"
+                    android:layout_height="60px"
+                    android:text="1"
+                    android:textColor="#000000"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:id="@+id/cell01" />
+                <TextView
+                    android:layout_width="180px"
+                    android:layout_height="60px"
+                    android:text=""
+                    android:background="@drawable/cell_border_right"
+                    android:gravity="center"
+                    android:tag="cellA1"
+                    android:id="@+id/cellA1" />
+
+                <TextView
+                    android:layout_width="180px"
+                    android:layout_height="60px"
+                    android:text=""
+                    android:background="@drawable/cell_border_right"
+                    android:gravity="center"
+                    android:tag="cellB1"
+                    android:id="@+id/cellB1" />
+
+                <TextView
+                    android:layout_width="180px"
+                    android:layout_height="60px"
+                    android:text=""
+                    android:background="@drawable/cell_border_right"
+                    android:gravity="center"
+                    android:tag="cellC1"
+                    android:id="@+id/cellC1" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginLeft="20px"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="60px"
+                    android:layout_height="60px"
+                    android:text="2"
+                    android:textColor="#000000"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:id="@+id/cell02" />
+                <TextView
+                    android:layout_width="180px"
+                    android:layout_height="60px"
+                    android:text=""
+                    android:background="@drawable/cell_border_right"
+                    android:gravity="center"
+                    android:tag="cellA2"
+                    android:id="@+id/cellA2" />
+
+                <TextView
+                    android:layout_width="180px"
+                    android:layout_height="60px"
+                    android:text=""
+                    android:background="@drawable/cell_border_right"
+                    android:gravity="center"
+                    android:tag="cellB2"
+                    android:id="@+id/cellB2" />
+
+                <TextView
+                    android:layout_width="180px"
+                    android:layout_height="60px"
+                    android:text=""
+                    android:background="@drawable/cell_border_right"
+                    android:gravity="center"
+                    android:tag="cellC2"
+                    android:id="@+id/cellC2" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginLeft="20px"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="60px"
+                    android:layout_height="60px"
+                    android:text="3"
+                    android:textColor="#000000"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:id="@+id/cell03" />
+                <TextView
+                    android:layout_width="180px"
+                    android:layout_height="60px"
+                    android:text=""
+                    android:background="@drawable/cell_border_right"
+                    android:gravity="center"
+                    android:tag="cellA3"
+                    android:id="@+id/cellA3" />
+
+                <TextView
+                    android:layout_width="180px"
+                    android:layout_height="60px"
+                    android:text=""
+                    android:background="@drawable/cell_border_right"
+                    android:gravity="center"
+                    android:tag="cellB3"
+                    android:id="@+id/cellB3" />
+
+                <TextView
+                    android:layout_width="180px"
+                    android:layout_height="60px"
+                    android:text=""
+                    android:background="@drawable/cell_border_right"
+                    android:gravity="center"
+                    android:tag="cellC3"
+                    android:id="@+id/cellC3" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginLeft="20px"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="60px"
+                    android:layout_height="60px"
+                    android:text="4"
+                    android:textColor="#000000"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:id="@+id/cell04" />
+                <TextView
+                    android:layout_width="180px"
+                    android:layout_height="60px"
+                    android:text=""
+                    android:background="@drawable/cell_border_right"
+                    android:gravity="center"
+                    android:tag="cellA4"
+                    android:id="@+id/cellA4" />
+
+                <TextView
+                    android:layout_width="180px"
+                    android:layout_height="60px"
+                    android:text=""
+                    android:background="@drawable/cell_border_right"
+                    android:gravity="center"
+                    android:tag="cellB4"
+                    android:id="@+id/cellB4" />
+
+                <TextView
+                    android:layout_width="180px"
+                    android:layout_height="60px"
+                    android:text=""
+                    android:background="@drawable/cell_border_right"
+                    android:gravity="center"
+                    android:tag="cellC4"
+                    android:id="@+id/cellC4" />
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+
+
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="fill_parent"
+        android:layout_height="40px">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/footer_bar" />
+
+        <ImageView
+            android:layout_width="50px"
+            android:layout_height="50px "
+            android:layout_marginLeft="25px"
+            android:src="@drawable/star"
+            android:id="@+id/control_bar_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0px"
+            android:layout_marginLeft="100px"
+            android:textColor="#ffffff"
+            android:textSize="25px"
+            android:text="Tap to perform operations"
+            android:id="@+id/control_bar_text" />
+
+    </RelativeLayout>
+</RelativeLayout>

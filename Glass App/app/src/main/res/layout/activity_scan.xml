@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="${relativePackage}.${activityClass}">
+
+
+    <com.grumblus.polyplan.QR.CameraPreview
+        android:id="@+id/camera_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="320px"
+        android:src="@drawable/scan_target"
+        android:scaleType="centerInside" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="80px"
+        android:src="@drawable/scan_label_bar"
+        android:scaleType="centerCrop"
+        android:layout_alignParentBottom="true"
+    />
+
+    <TextView
+        android:id="@+id/scan_label"
+        android:text="Scan an Excel workbook"
+        android:textSize="40px"
+        android:textAlignment="center"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+
+</RelativeLayout>
